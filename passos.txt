@@ -1,0 +1,8 @@
+criando ambiente virtual: python3 -m venv ./venv
+ativando ambiente virtual: source venv/bin/activate
+instalndo django: pip install django==2.2.6
+novo projeto: django-admin startproject nome .
+subindo o servidor: python manage.py runserver
+criando app: python manage.py startapp nome
+registrando app: project --> settings add app name(INSTALLED_APPS): 'nome',
+...
