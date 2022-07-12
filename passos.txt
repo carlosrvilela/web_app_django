@@ -6,3 +6,7 @@ subindo o servidor: python manage.py runserver
 criando app: python manage.py startapp nome
 registrando app: project --> settings add app name(INSTALLED_APPS): 'nome',
 ...
+
+
+python manage.py makemigrations
+python manage.py migrate
