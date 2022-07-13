@@ -14,3 +14,6 @@ class Receita(models.Model):
     pessoa = models.ForeignKey(Pessoa, on_delete = models.CASCADE)
     foto_receita = models.ImageField(upload_to = 'fotos/%d/%m/%Y', blank = True)
     publicar = models.BooleanField(default = False)
+    
+    def __str__(self):
+        return self.nome_receita
